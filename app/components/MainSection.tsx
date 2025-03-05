@@ -14,8 +14,8 @@ const MainSection = () => {
             }}
             id="main"
         >
-            <h1 className="text-8xl font-raleway font-semibold mb-4 text-center">John Doe</h1>
-            <p className="text-3xl text-gray-400 text-center">Front-end developer & Freelance</p>
+            <h1 className="text-8xl font-raleway font-semibold mb-4 text-center">Josep Sendra</h1>
+            <p className="text-3xl text-gray-400 text-center">Full-stack developer & Freelance</p>
             <div className="flex items-center justify-center gap-5 my-8">
                 <LinkScroll to="aboutMe" duration={500} offset={-80} smooth={true} className="w-24 text-center bg-gray-800 py-2 rounded-md hover:bg-gray-400 hover:cursor-pointer">About me</LinkScroll>
                 <LinkScroll to="contact" duration={500} offset={-80} smooth={true} className="w-24 text-center bg-yellow-300 py-2 rounded-md text-black shadow-xl shadow-yellow-300/20 hover:bg-yellow-500 hover:cursor-pointer">Contact</LinkScroll>
