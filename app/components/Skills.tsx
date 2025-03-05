@@ -14,19 +14,17 @@ const Skills = () => {
         >
             <h4 className="text-5xl font-raleway font-semibold mb-8">Skills</h4>
             <div className="flex items-center flex-wrap gap-3">
+                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">C#/.NET</div>
+                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">TypeScript</div>
                 <div className="bg-slate-600 text-center px-3 py-1 rounded-md">JavaScript</div>
-                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">NextJs</div>
-                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">ReactJs</div>
-                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">Tailwindcss</div>
-                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">NodeJs</div>
-                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">MySQL</div>
-                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">MongoDB</div>
+                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">React</div>
+                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">Blazor</div>
+                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">Angular</div>
+                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">SQL/MySQL/PostgreSQL</div>
+                <div className="bg-slate-600 text-center px-3 py-1 rounded-md">Docker</div>
             </div>
             <p className="my-4 text-gray-400 text-sm">
-                These are the skills in which he has more mastery, however I have used while studying <span className="text-gray-100">C++</span>,
-                <span className="text-gray-100"> JAVA</span> and <span className="text-gray-100">Python</span> in algorithm projects such as a binary tree.
-                Also in my work I have used <span className="text-gray-100">Blade</span> and Laravel,
-                as in my own projects I have used <span className="text-gray-100">EJS</span> with NodeJs.
+                These are the skills in which I have the most experience and have worked with them in different projects. I am currently learning to master non-relational databases such as MongoDB.
             </p>
         </motion.section>
     );
