@@ -8,7 +8,8 @@ const AboutMe = () => {
 
     return (
         <section className="md:mt-14" id="aboutMe">
-            <div className="lg:grid lg:grid-cols-2 mx-5">
+            <br></br>
+            <div className="lg:grid lg:grid-cols-1 mx-5">
                 <motion.div
                     initial={{ opacity: 0, y: 100, scale: 0.3 }}
                     whileInView={{ y: 0, scale: 1 }}
@@ -28,7 +29,7 @@ const AboutMe = () => {
                         Whether I&apos;m working on software projects or exploring new games, I bring enthusiasm and dedication to everything I do. I&apos;m always eager for new experiences and connecting with others who share my interests.
                     </p>
                 </motion.div>
-                <motion.div
+                {/* <motion.div
                     initial={{ x: 0, y: 200, opacity: 0, scale: 0.6, rotateX: 50, rotateY: -50 }}
                     whileInView={{ y: 50, scale: 1, rotateX: 0, rotateY: 0 }}
                     animate={{ x: 0, y: 0, opacity: 1 }}
@@ -45,7 +46,7 @@ const AboutMe = () => {
                         height={720}
                         className="rounded-md w-full lg:w-4/5 ml-auto mt-2 md:mt-0"
                     />
-                </motion.div>
+                </motion.div> */}
             </div>
         </section>
     );
