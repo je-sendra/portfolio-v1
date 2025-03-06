@@ -11,8 +11,8 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: "Josep Sendra | Full-stack developer",
-  description: "Josep Sendra is a Full-stack Developer and Freelancer. Let's make your ideal application.",
-  keywords: "Josep Sendra, Full-stack developer, Freelancer, website, portfolio, application",
+  description: "Josep Sendra is a Full-stack Developer.",
+  keywords: "Josep Sendra, Full-stack developer, website, portfolio, application",
   icons: {
     icon: '/favicon.ico'
   }
