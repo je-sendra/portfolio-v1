@@ -19,11 +19,13 @@ const AboutMe = () => {
                     <h3 className="text-5xl font-raleway font-semibold mb-2">About me</h3>
                     <p className="text-xl font-raleway font-semibold text-slate-300">Take a look at my story</p>
                     <p className="text-sm md:text-base my-3 text-gray-400">
-                        Hey, I&apos;m John Doe! I&apos;m passionate about creating software and I&apos;ve been working on it for more than 2 years. Currently I am Front-end in a company that provides specialized software products to many Latin American universities.
+                        Hello! I&apos;m Josep, an IT enthusiast with a passion for technology. My journey began at a young age with development of games in Roblox, which led me to study IT at Xuquer High School in Alzira, graduating in 2020.
                         <br /> <br />
-                        One of my successes is to have been third place in my first NTTDATA Hackathon. This motivated me to continue deepening in this area of technology, in addition to understanding that this can provide solutions to different problems of everyday life, as well as to enhance business, services and other things.
+                        I am committed to continuous learning and growth, always seeking new challenges to expand my skills. My expertise includes programming in various languages and creating innovative solutions.
                         <br /> <br />
-                        In my free time I like to work on projects like CityUbi in which I seek to help highlight local products and services. I also like to spend time with my friends and family.
+                        Outside of work, I enjoy gaming, especially Nintendo games, watching movies, and collectionism.
+                        <br /> <br />
+                        Whether I&apos;m working on software projects or exploring new games, I bring enthusiasm and dedication to everything I do. I&apos;m always eager for new experiences and connecting with others who share my interests.
                     </p>
                 </motion.div>
                 <motion.div
