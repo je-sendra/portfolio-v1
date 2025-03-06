@@ -61,12 +61,6 @@ const Header = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="flex items-center justify-end">
-                    <LinkScroll to="contact" duration={500} offset={-80} smooth={true} className="hidden lg:block px-6 py-3 bg-gradient-to-r from-amber-400 via-yellow-500 to-yellow-600 font-medium rounded-full
-                         hover:from-amber-500  hover:via-yellow-600 hover:to-yellow-700 hover:cursor-pointer">
-                        Contact
-                    </LinkScroll>
-                </div>
 
                 {/* Menu Responsive */}
 
@@ -96,9 +90,6 @@ const Header = () => {
                             </li>
                             <li>
                                 <LinkScroll to="projects" onClick={() => setResponsiveMenu(false)} duration={500} offset={-80} smooth={true} className="hover:transition ease-in-out delay-75 hover:text-slate-50 hover:cursor-pointer">Projects</LinkScroll>
-                            </li>
-                            <li>
-                                <LinkScroll to="contact" onClick={() => setResponsiveMenu(false)} duration={500} offset={-80} smooth={true} className="hover:transition ease-in-out delay-75 hover:text-slate-50 hover:cursor-pointer">Contact</LinkScroll>
                             </li>
                         </ul>
                     </div>
